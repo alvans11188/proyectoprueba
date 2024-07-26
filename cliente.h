@@ -2,6 +2,6 @@
 #define CLIENTE_H
 
 void clienteHotel();
-
+	
 
 #endif
