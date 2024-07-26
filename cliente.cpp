@@ -1,8 +1,8 @@
 #include <iostream>
 #include "cliente.h"
 
+
 using namespace std;
-struct cliente
 void clienteHotel() {
 	int opcion;
     do {
