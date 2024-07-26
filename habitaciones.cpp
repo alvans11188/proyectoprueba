@@ -1,17 +1,17 @@
-#include <iostream>
-#include "cliente.h"
-
-
+#include<iostream>
+#include "habitaciones.h"
 using namespace std;
-void clienteHotel() {
+
+void habitacionesHotel(){
+
 	int opcion;
     do {
     	cout << "\n" << endl;
-        cout << "1. Agregar cliente" << endl;
+        cout << "1. Mostrar tipos de Habitaciones disponibles" << endl;
         cout << "2. Editar datos" << endl;
-        cout << "3. " << endl;
-        cout << "4. " << endl;
-        cout << "5. " << endl;
+        cout << "3. Editar habitaciones" << endl;
+        cout << "4. Eliminar habitaciones " << endl;
+        cout << "5. Salir de la aplicacion" << endl;
         cout << "6. Eliminarcliente" << endl;
         cin >> opcion;
         // SWITCH PARA SELECIONAR LAS DIFERENTES OPCIONES DEL MENU CARTA
@@ -41,3 +41,6 @@ void clienteHotel() {
         
     } while (opcion != 6); //EN CASO SELECCIONAR EL NUMERO 6 REGRESA AL MENU ANTERIOR
 }
+	
+	
+
